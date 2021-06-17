@@ -9,3 +9,54 @@
 body {
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* css header */
+
+header {
+    position: absolute;
+    width: 100%;
+    background-color: #3060DF;
+}
+
+header div {
+    padding: 20px;
+    line-height: 100%;
+    vertical-align: middle;
+    object-position: center;
+}
+
+
+.head-logo, .head-button {
+    width: 20%;
+    float: left;
+}
+
+.head-links {
+    width: 60%;
+    float: left;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.head-button a {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 35%;
+    padding: 15px;
+    color: black;
+}
