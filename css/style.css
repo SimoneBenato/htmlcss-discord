@@ -204,16 +204,15 @@ main .section {
 
 footer {
     background-color: #23272A;
-    position: relative;
+}
+
+.list-container {
+    width: 80%;
+    float: right;
 }
 
 footer ul {
     display: inline-block;
-}
-
-li:first-of-type a {
-    color: #A1B0E4;
-    font-size: bold;
 }
 
 footer ul li {
@@ -224,4 +223,9 @@ footer ul li {
 footer ul li a {
     text-decoration: none;
     color: white;
+}
+
+footer li:first-of-type a {
+    color: #A1B0E4;
+    font-size: bold;
 }
