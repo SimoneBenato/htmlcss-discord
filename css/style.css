@@ -179,16 +179,17 @@ main .section {
     text-align: center;
 }
 
-.section-footer img {
+/* .section-footer img {
     width: 100%;
-    position: absolute;
     top: 0;
     left: 0;
-}
+} */
 
 .section-footer h4 {
     margin: 0 auto;
-
+    background-image: url("../img/stars.svg");
+    background-size: cover;
+    padding: 20px;
 }
 
 .section-footer a {
@@ -199,4 +200,12 @@ main .section {
     padding: 15px;
 }
 
+/* css footer */
 
+footer {
+    background-color: #23272A;
+}
+
+footer ul li::first-child a {
+    color: red;
+}
