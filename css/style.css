@@ -30,7 +30,6 @@ header div, img, a {
     vertical-align: middle;
 }
 
-
 .head-logo, .head-button {
     width: 20%;
     float: left;
@@ -117,13 +116,13 @@ main {
     margin: 0 auto;
 }
 
-/* css sezione a due colonne */
-
 main .section {
     width: 100%;
     height: 100vh;
     vertical-align: middle;
 }
+
+/* css sezione a due colonne */
 
 .section .section-image {
     width: 50%;
@@ -152,7 +151,52 @@ main .section {
 
 /* css sezione a tre righe */
 
+.section .section-text-a {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
 
+.section .section-image-a {
+    width: 100%;
+    float: top;
+}
 
+.section-image-a img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-text-a h2 {
+    line-height: 25px;
+    vertical-align: center;
+    margin-bottom: 20px;
+}
+
+.section-footer {
+    position: relative;
+    text-align: center;
+}
+
+.section-footer img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.section-footer h4 {
+    margin: 0 auto;
+
+}
+
+.section-footer a {
+    text-decoration: none;
+    color: white;
+    background-color: #A1B0E4;
+    border-radius: 25px;
+    padding: 15px;
+}
 
 
