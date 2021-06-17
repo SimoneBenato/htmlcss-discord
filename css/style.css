@@ -55,7 +55,7 @@ nav ul li a {
 .head-button a {
     text-decoration: none;
     background-color: white;
-    border-radius: 50%;
+    border-radius: 25px;
     padding: 15px;
     color: black;
 }
@@ -88,12 +88,13 @@ nav ul li a {
 
 .slider-container p {
     padding: 30px;
+    line-height: 25px;
 }
 
 .slider-button a {
     text-decoration: none;
     background-color: white;
-    border-radius: 35%;
+    border-radius: 25px;
     padding: 15px;
     color: black;
     margin: auto;
@@ -104,3 +105,54 @@ nav ul li a {
     background-color: black;
     color: white;
 }
+
+/* css main */
+
+main {
+    color:#292841;
+}
+
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* css sezione a due colonne */
+
+main .section {
+    width: 100%;
+    height: 100vh;
+    vertical-align: middle;
+}
+
+.section .section-image {
+    width: 50%;
+    float: left;
+    height: 50%;
+}
+
+.section-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section .section-text {
+    width: 50%;
+    float: left;
+    height: 50%;
+    padding: 50px;
+}
+
+.section-text h2 {
+    line-height: 25px;
+    vertical-align: center;
+    margin-bottom: 20px;
+}
+
+/* css sezione a tre righe */
+
+
+
+
+
