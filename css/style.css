@@ -10,7 +10,7 @@ body {
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
-.clearfix {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -22,12 +22,13 @@ header {
     position: relative;
     width: 100%;
     background-color: #3060DF;
+    height: 100px;
 }
 
-header div, img, a {
-    padding: 20px;
-    line-height: 80px;
+header div, header img, header a {
+    line-height: 100px;
     vertical-align: middle;
+    text-align: center;
 }
 
 .head-logo, .head-button {
@@ -207,8 +208,7 @@ footer {
 }
 
 .list-container {
-    width: 80%;
-    float: right;
+    float: left;
 }
 
 footer ul {
@@ -223,9 +223,4 @@ footer ul li {
 footer ul li a {
     text-decoration: none;
     color: white;
-}
-
-footer li:first-of-type a {
-    color: #A1B0E4;
-    font-size: bold;
 }
